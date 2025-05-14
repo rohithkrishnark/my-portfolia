@@ -2,37 +2,113 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#particle canvas{
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+/* App.css */
+/* .ring-border {
+  background: conic-gradient(
+    #22c55e 0deg 20deg,
+    transparent 20deg 40deg,
+    #22c55e 40deg 60deg,
+    transparent 60deg 100deg,
+    #22c55e 100deg 120deg,
+    transparent 120deg 180deg,
+    #22c55e 180deg 200deg,
+    transparent 200deg 240deg,
+    #22c55e 240deg 260deg,
+    transparent 260deg 320deg,
+    #22c55e 320deg 340deg,
+    transparent 340deg 360deg
+  );
+  border-radius: 50%;
+} */
 
-@keyframes App-logo-spin {
-  from {
+
+
+@keyframes rotate-ring {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.ring-border,
+.ring-border-secondary,
+.ring-border-tertiary {
+  position: absolute;
+  border-radius: 50%;
+  animation: rotate-ring 10s linear infinite;
+}
+
+.ring-border {
+  width: 300px;
+  height: 300px;
+  background: conic-gradient(
+    #22c55e 0deg 20deg,
+    transparent 20deg 40deg,
+    #22c55e 40deg 60deg,
+    transparent 60deg 100deg,
+    #22c55e 100deg 90deg,
+    transparent 120deg 180deg,
+    #22c55e 180deg 190deg, /* Shortened right section */
+    transparent 190deg 240deg,
+    #22c55e 240deg 260deg,
+    transparent 260deg 320deg,
+    #22c55e 320deg 340deg,
+    transparent 340deg 360deg
+  );
+  animation-duration: 6s;
+  z-index: 1;
+}
+
+.ring-border-secondary {
+  width: 301px;
+  height: 301px;
+  background: conic-gradient(
+    #22c55e 0deg 30deg,
+    transparent 30deg 60deg,
+    #22c55e 60deg 90deg,
+    transparent 90deg 150deg,
+    #22c55e 150deg 80deg,
+    transparent 180deg 190deg, /* Shortened right section */
+    #22c55e 200deg 210deg,
+    transparent 210deg 210deg,
+    #22c55e 240deg 220deg,
+    transparent 270deg 320deg,
+    #22c55e 330deg 360deg
+  );
+  animation-duration: 10s;
+  animation-direction: reverse;
+  z-index: 0;
+  /* opacity: 0.6; */
+}
+
+.ring-border-tertiary {
+  width: 265px;
+  height: 265px;
+  background: conic-gradient(
+    #ec4899 0deg 15deg,
+    transparent 15deg 45deg,
+    #ec4899 45deg 75deg,
+    transparent 75deg 135deg,
+    #ec4899 135deg 150deg, /* Shortened right section */
+    transparent 150deg 165deg,
+    #ec4899 165deg 180deg,
+    transparent 180deg 25deg,
+    #ec4899 225deg 240deg,
+    transparent 240deg 315deg,
+    #ec4899 315deg 345deg,
+    transparent 345deg 360deg
+  );
+  animation-duration: 14s;
+  z-index: -1;
+  opacity: 0.4;
 }
