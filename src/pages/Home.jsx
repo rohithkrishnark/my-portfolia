@@ -7,8 +7,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
-import DownloadTwoToneIcon from '@mui/icons-material/DownloadTwoTone';
 import mypic from '../assets/final.png'
+import OwnerDetails from '../Components/OwnerDetails'
 
 
 const icons = [
@@ -69,56 +69,32 @@ const Home = () => {
       <div id="particle" className="absolute w-full h-full -z-10 pointer-events-none">
         <ParticlesComponent />
       </div>
-
       <Header />
-
-      <div className='w-[100%] h-3/4 flex items-center justify-center '>
-        <div className="max-w-4xl mx-auto  flex items-center justify-between h-3/4 ">
-          <div className="w-[65%] h-full py-8">
-            <p className='font-robotoMono text-white'>software Developer</p>
-            <h2 className='font-robotoMono text-white text-6xl'>Hello I'm</h2>
-            <h2 className='font-robotoMono text-green-400 text-6xl font-bold'>Rohith Krishna</h2>
-            <p className='font-robotoMono text-white'>I'm Rohith Krishna, a passionate software developer</p>
-            <p className='font-robotoMono text-white'>I love building clean and efficient web applications that solve real-world problems.</p>
-            <div className='w-[60%] h-[50px]  flex items-center justify-between mt-2'>
-              <div className='w-[35%] h-full flex items-center justify-center cursor-pointer '>
-                <div className='w-full h-[80%]  rounded-[20px] flex items-center justify-center border border-[1px] border-green-400 hover:border-[2px] gap-1 '>
-                  <p className='font-robotoMono text-white text-xs '>DOWNLOAD CV</p>
-                  <DownloadTwoToneIcon
-                    sx={{
-                      color: 'white',
-                      cursor: 'pointer',
-                      fontSize:19
-                    }} />
-                </div>
-              </div>
-              <div className='w-[60%] h-full flex items-center justify-around'>
-                {
-                  icons?.map((item) => (
-                    <div className='cursor-pointer'>{item?.icon}</div>
-                  ))
-                }
-              </div>
-
-            </div>
+      <div className='w-[100%] h-[85%] flex items-center justify-center'>
+        <Box className=" h-full mx-auto flex flex-col lg:flex-row items-center justify-between"
+          sx={{
+            width:{ xs: '85%', md: '90%', lg: '70%', xl: '60%' },
+            height: '90%',
+          }}>
+          <div id='first' className="order-2 md:order-1 w-full lg:w-[65%]  h-1/2 lg:h-full py-8 flex flex-col text-center sm:text-left  justify-center">
+            <OwnerDetails
+              desgination={"software Developer"}
+              Name={"Rohith Krishna"}
+              Description={"I'm Rohith Krishna, a passionate software developer.I love building clean and efficient web applications that solve real-world problems."}
+              cv={"cv"} icons={icons} />
           </div>
-          <div className="w-[35%] h-full flex py-4">
-            <div className="relative flex items-center  justify-center w-[320px] h-[320px]">
-              {/* Animated Rings */}
-              <div className="ring-border"></div>
-              <div className="ring-border-secondary"></div>
-              <div className="ring-border-tertiary"></div>
-
-              {/* Profile Image */}
+          <div id='second' className="order-1 md:order-2  w-full lg:w-[35%] h-1/2 lg:h-full flex py-4  justify-center items-center">
+            <div className="relative flex items-center  justify-center  w-[220px] h-[220px] lg:w-[320px] lg:h-[320px]">
+              <div className="ring-border w-[230px] h-[230px] lg:w-[300px] lg:h-[300px]"></div>
+              <div className="ring-border-secondary w-[230px] h-[230px] lg:w-[301px] lg:h-[301px]"></div>
               <img
                 src={mypic}
                 alt="Profile"
-                className="w-[295px] h-[295px] object-cover bg-black rounded-full z-10"
+                className="w-[225px] h-[225px] lg:w-[295px] lg:h-[295px] object-cover bg-black rounded-full z-10 "
               />
             </div>
           </div>
-
-        </div>
+        </Box>
       </div>
     </Box>
   )
