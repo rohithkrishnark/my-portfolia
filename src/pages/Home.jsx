@@ -64,7 +64,7 @@ const icons = [
 
 const Home = () => {
   return (
-    <Box className="relative z-10 w-screen h-screen bg-black">
+    <Box sx={{width:'100%',height:'100vh'}} className="relative z-10  bg-black">
       {/* <ParticlesComponent id="particle" /> */}
       <div id="particle" className="absolute w-full h-full -z-10 pointer-events-none">
         <ParticlesComponent />

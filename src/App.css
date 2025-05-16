@@ -112,3 +112,76 @@
   z-index: -1;
   opacity: 0.4;
 }
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.block{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40% ;
+}
+
+
+.fade-container {
+  position: relative;
+}
+
+.fade-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  opacity: 0;
+  animation: fade 20s infinite ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.img1 {
+  animation-delay: 0s;
+}
+
+.img2 {
+  animation-delay: 10s;
+}
+
+@keyframes fade {
+  0%, 45% {
+    opacity: 1;
+  }
+  50%, 95% {
+    opacity: 0;
+  }
+}
