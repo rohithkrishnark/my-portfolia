@@ -17,7 +17,7 @@ const About = () => {
           <img src={aboutpic2} alt="Image 2" className="fade-img img2" />
         </div>
       </div>
-      <div className="w-3/4 h-full">
+      <div className="w-3/4 h-full ">
         <div className="w-[80%]  h-1/2  flex items-center flex-col gap-1 justify-center ">
           <div id="two" className="w-[90%] h-[20%]  block flex items-center ">
             <h2 className="font-robotoMono text-6xl text-white font-bold">AB<span className="text-green-400">O</span>UT ME</h2>

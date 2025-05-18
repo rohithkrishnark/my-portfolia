@@ -2,7 +2,7 @@ import React, { memo, useCallback, useState } from 'react';
 
 const Header = () => {
     const [activetab, setActiveTab] = useState('Home');
-    const tabs = ["Home", "About", "Stacks", "Contact", "Resume"];
+    const tabs = ["Home", "About", "Stacks", "Contact", "Resumes"];
 
     const handleTabSwitch = useCallback((tab) => {
         setActiveTab(tab);
