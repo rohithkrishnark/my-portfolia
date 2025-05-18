@@ -16,6 +16,7 @@ const icons = [
     name: "Linkedin", icon:
       <LinkedInIcon
         sx={{
+          fontSize:23,
           color: 'white',
           cursor: 'pointer',
           transition: '0.3s',
@@ -27,6 +28,7 @@ const icons = [
   {
     name: "GitHubIcon", icon: <GitHubIcon
       sx={{
+        fontSize:23,
         color: 'white',
         cursor: 'pointer',
         transition: '0.3s',
@@ -39,6 +41,7 @@ const icons = [
   {
     name: "InstagramIcon", icon: <InstagramIcon
       sx={{
+        fontSize:23,
         color: 'white',
         cursor: 'pointer',
         transition: '0.3s',
@@ -51,6 +54,7 @@ const icons = [
   {
     name: "EmailIcon", icon: <EmailIcon
       sx={{
+        fontSize:23,
         color: 'white',
         cursor: 'pointer',
         transition: '0.3s',
