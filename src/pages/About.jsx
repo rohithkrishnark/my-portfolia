@@ -4,37 +4,41 @@ import '../../src/App.css'
 
 import aboutpic from '../assets/three.jpeg';
 import aboutpic2 from '../assets/two.jpeg';
+import aboutpic3 from '../assets/four.jpeg';
+import AboutDescription from "../Components/AboutDescription";
+import StatsSection from "../Components/StatsSection ";
+
+
+
 
 const About = () => {
   return (
-    <Box
-      className="flex items-center justify-center bg-black"
-      sx={{ width: "100%", height: "100vh" }}>
+    <Box className="flex md:flex-row flex-col items-center justify-center bg-black" sx={{ width: "100%", minHeight: "100%" }}>
 
-      <div className="w-2/4 h-full flex items-center justify-end ">
-        <div id="one" style={{ backgroundColor: '#212529' }} className="block w-[50%] h-[80%] rounded-md  py-3 flex items-center justify-center ">
-          <img src={aboutpic} alt="Image 1" className="fade-img img1 rounded-md" />
+      <div className="order-2 md:order-1 w-full md:w-[30%] h-[50vh] md:h-[100vh] flex items-center md:justify-end justify-center">
+        <div
+          id="one"
+          style={{ backgroundColor: '#212529' }}
+          className=" block w-[60%] md:w-[70%] h-[90%] rounded-md  py-3 flex items-center justify-center ">
+          <img src={aboutpic3} alt="Image 1" className="fade-img img1 " />
           <img src={aboutpic2} alt="Image 2" className="fade-img img2" />
         </div>
       </div>
-      <div className="w-3/4 h-full ">
-        <div className="w-[80%]  h-1/2  flex items-center flex-col gap-1 justify-center ">
-          <div id="two" className="w-[90%] h-[20%]  block flex items-center ">
-            <h2 className="font-robotoMono text-6xl text-white font-bold">AB<span className="text-green-400">O</span>UT ME</h2>
-          </div>
-          <div id="two" className="w-[90%] h-[50%]  block">
-            <p className="font-robotoMono text-sm text-white text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam omnis odio eum reprehenderit accusantium ipsam atque delectus repellendus quaerat debitis, incidunt vitae veniam voluptates enim nam non magni quasi officiis.
-              Nostrum aspernatur id molestiae velit harum eligendi nulla repellat error facilis maxime dolorem quis exercitationem maiores at, quasi dolor porro optio dicta! Eum ut eligendi molestias fuga, ex voluptatem sunt.
-              Ipsam repudiandae sequi voluptate illo autem incidunt molestias eos, voluptates doloribus, odio eum consectetur! Veritatis velit blanditiis porro, soluta ratione itaque? Dolore soluta odio harum eius quibusdam nulla facilis cumque.
 
-            </p>
-          </div>
+
+      <div className="order-1 md:order-2 w-full md:w-3/4 min:h-[50vh] md:h-[100vh] ">
+        <div className=" w-[100%] md:w-[80%] h-1/2  flex items-center flex-col gap-1 justify-center  ">
+          <AboutDescription
+            desription={"Hi, I'm Rohith Krishna, a software developer at Logiprompt Techno Solutions. I recently completed a MERN stack course, which deepened my skills in building modern, full-stack web applications. Currently, I'm working on a project involving React Native and Node.js, expanding my expertise in mobile and backend development.I'm passionate about leveraging technology to create practical, user-focused solutions. With hands-on experience in scalable app development, I’m always eager to take on new challenges, collaborate with fellow developers, and contribute to impactful projects."}
+          />
         </div>
-        <div className="w-[82%] h-1/2  flex items-start justify-between">
-          <div id="three" className="w-[40%] h-[70%] bg-blue-900 block"></div>
-          <div id="four" className="w-[60%] h-[70%] bg-yellow-900 block"></div>
+        <div className="w-[100%] md:w-[82%] h-1/2  flex items-center md:items-start justify-center  px-2 mt-1 ">
+          <div id="three" className=" w-full h-auto flex flex-wrap items-start justify-center md:justify-start gap-1 ">
+            <StatsSection />
+          </div>
         </div>
       </div>
+
     </Box>
   );
 };
