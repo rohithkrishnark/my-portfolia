@@ -159,10 +159,10 @@
 .fade-img {
   position: absolute;
   top: 20;
-  left: 0;
-  width: 100%;
+  left: 10;
+  width: 90%;
   height: 90%;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 10px;
   opacity: 0;
   animation: fade 20s infinite ease-in-out;
