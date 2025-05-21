@@ -7,11 +7,16 @@ import Skill from './Skill';
 
 const Container = () => {
   return (
-    <Box sx={{width:"100%",minHeight:'100vh'}}>
-         {/* <Header /> */}
-      <Home />
-      <About />
-      <Skill/>
+    <Box sx={{ width: "100%", minHeight: '100vh' }}>
+      <section id='home'>
+        <Home />
+      </section>
+      <section id='about'>
+        <About />
+      </section>
+      <section id='skills'>
+        <Skill />
+      </section>
     </Box>
   )
 }

@@ -2,7 +2,14 @@ import React, { memo, useCallback, useState } from 'react';
 
 const Header = () => {
     const [activetab, setActiveTab] = useState('Home');
-    const tabs = ["Home", "About", "Stacks", "Contact", "Resumes"];
+   const tabs = [
+  { name: "Home", path: "#home" },
+  { name: "About", path: "#about" },
+  { name: "Skills", path: "#skills" },
+  { name: "Contact", path: "/contact" },
+  { name: "Resumes", path: "/resumes" }
+];
+
 
     const handleTabSwitch = useCallback((tab) => {
         setActiveTab(tab);
@@ -18,10 +25,10 @@ const Header = () => {
                             <a
                                 key={index}
                                 onClick={() => handleTabSwitch(tab)}
-                                href="#"
+                                href={tab.path}
                                 className={`font-robotoMono hover:text-green-200 text-white pb-1 transition-all duration-300 ease-in-out ${activetab === tab ? 'border-b-2 border-green-500 text-green-800 font-bold' : 'border-transparent'}`}
                             >
-                                {tab}
+                                {tab.name}
                             </a>
                         ))
                     }
