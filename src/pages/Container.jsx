@@ -2,8 +2,8 @@ import { Box } from '@mui/joy'
 import React from 'react'
 import About from './About'
 import Home from './Home'
-import Header from '../layouts/Header';
 import Skill from './Skill';
+import Contact from './Contact';
 
 const Container = () => {
   return (
@@ -16,6 +16,9 @@ const Container = () => {
       </section>
       <section id='skills'>
         <Skill />
+      </section>
+      <section>
+        <Contact/>
       </section>
     </Box>
   )
