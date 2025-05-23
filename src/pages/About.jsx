@@ -19,9 +19,9 @@ const About = () => {
         <div
           id="one"
           style={{ backgroundColor: '#212529' }}
-          className=" block w-[60%] md:w-[70%] h-[90%] md:h-[75%] rounded-md  py-3 flex items-center justify-center ">
-          <img src={aboutpic3} alt="Image 1" className="fade-img img1 " />
-          <img src={aboutpic2} alt="Image 2" className="fade-img img2" />
+          className=" block w-[60%] md:w-[65%] h-[90%] md:h-[75%] rounded-md  py-3 flex items-center justify-center ">
+          {/* <img src={aboutpic3} alt="Image 1" className="" /> */}
+          <img src={aboutpic2} alt="Image 2 " className="w-[80%] h-[100%]" />
         </div>
       </div>
 

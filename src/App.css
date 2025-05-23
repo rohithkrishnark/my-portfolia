@@ -6,13 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
-#particle canvas{
+#particle canvas {
   width: 100%;
   height: 100%;
 }
-
-
 
 /* App.css */
 /* .ring-border {
@@ -34,8 +31,8 @@ html {
 } */
 
 ::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
 @keyframes rotate-ring {
   0% {
@@ -45,14 +42,14 @@ html {
     transform: rotate(360deg);
   }
 }
- .custom-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
-  .custom-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
+.custom-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
 .ring-border,
 .ring-border-secondary,
@@ -72,8 +69,8 @@ html {
     transparent 60deg 100deg,
     #22c55e 100deg 90deg,
     transparent 120deg 180deg,
-    #22c55e 180deg 190deg, /* Shortened right section */
-    transparent 190deg 240deg,
+    #22c55e 180deg 190deg,
+    /* Shortened right section */ transparent 190deg 240deg,
     #22c55e 240deg 260deg,
     transparent 260deg 320deg,
     #22c55e 320deg 340deg,
@@ -92,8 +89,8 @@ html {
     #22c55e 60deg 90deg,
     transparent 90deg 150deg,
     #22c55e 150deg 80deg,
-    transparent 180deg 190deg, /* Shortened right section */
-    #22c55e 200deg 210deg,
+    transparent 180deg 190deg,
+    /* Shortened right section */ #22c55e 200deg 210deg,
     transparent 210deg 210deg,
     #22c55e 240deg 220deg,
     transparent 270deg 320deg,
@@ -113,8 +110,8 @@ html {
     transparent 15deg 45deg,
     #ec4899 45deg 75deg,
     transparent 75deg 135deg,
-    #ec4899 135deg 150deg, /* Shortened right section */
-    transparent 150deg 165deg,
+    #ec4899 135deg 150deg,
+    /* Shortened right section */ transparent 150deg 165deg,
     #ec4899 165deg 180deg,
     transparent 180deg 25deg,
     #ec4899 225deg 240deg,
@@ -126,8 +123,6 @@ html {
   z-index: -1;
   opacity: 0.4;
 }
-
-
 
 @keyframes fadeInUp {
   from {
@@ -148,7 +143,6 @@ html {
   animation-timeline: view();
 }
 
-
 @keyframes appear {
   from {
     opacity: 0;
@@ -159,12 +153,11 @@ html {
     scale: 1;
   }
 }
-.block{
+.block {
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40% ;
+  animation-range: entry 0% cover 40%;
 }
-
 
 .fade-container {
   position: relative;
@@ -193,10 +186,12 @@ html {
 }
 
 @keyframes fade {
-  0%, 45% {
+  0%,
+  45% {
     opacity: 1;
   }
-  50%, 95% {
+  50%,
+  95% {
     opacity: 0;
   }
 }
