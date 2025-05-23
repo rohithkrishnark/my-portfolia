@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-portfolia/static/css/main.75cc3f50.css",
+    "main.js": "/my-portfolia/static/js/main.f8294b0c.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolia/static/js/453.acca0757.chunk.js",
+    "static/media/final.png": "/my-portfolia/static/media/final.c6db74ff6eb746fe9ca2.png",
+    "static/media/four.jpeg": "/my-portfolia/static/media/four.f215bd3e864f68f36d59.jpeg",
+    "static/media/three.jpeg": "/my-portfolia/static/media/three.8d86651f7f9be91fb0d7.jpeg",
+    "static/media/two.jpeg": "/my-portfolia/static/media/two.a4bbd665efc97020151c.jpeg",
+    "static/media/physics.png": "/my-portfolia/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/mysql_919836.png": "/my-portfolia/static/media/mysql_919836.bdbd1eb709e4c13258d2.png",
+    "static/media/physics_753244.png": "/my-portfolia/static/media/physics_753244.07d9e407d4e491c548d5.png",
+    "static/media/icons8-kubernetes-480.png": "/my-portfolia/static/media/icons8-kubernetes-480.345b1ce9f2df6132ec25.png",
+    "static/media/icons8-mongodb-480.png": "/my-portfolia/static/media/icons8-mongodb-480.4d1763a20af23f3dbc1d.png",
+    "static/media/icons8-aws-480.png": "/my-portfolia/static/media/icons8-aws-480.e51b24f41cc8719a5411.png",
+    "static/media/docker.png": "/my-portfolia/static/media/docker.c1f953a3ead577c05d04.png",
+    "static/media/icons8-apache-kafka-256.png": "/my-portfolia/static/media/icons8-apache-kafka-256.5ebd0c146ffb269cce8f.png",
+    "static/media/icons8-github-500.png": "/my-portfolia/static/media/icons8-github-500.636c8b381caf9cb35a68.png",
+    "static/media/icons8-canva-240.png": "/my-portfolia/static/media/icons8-canva-240.159821f9edf99faecf94.png",
+    "static/media/html-5.png": "/my-portfolia/static/media/html-5.b2db3a7f6897f0a6e75c.png",
+    "static/media/bootstrap (1).png": "/my-portfolia/static/media/bootstrap (1).268c4375260420e8d982.png",
+    "static/media/css-3.png": "/my-portfolia/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js_5968292.png": "/my-portfolia/static/media/js_5968292.3dfb665e058d08c99f28.png",
+    "index.html": "/my-portfolia/index.html",
+    "main.75cc3f50.css.map": "/my-portfolia/static/css/main.75cc3f50.css.map",
+    "main.f8294b0c.js.map": "/my-portfolia/static/js/main.f8294b0c.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolia/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75cc3f50.css",
+    "static/js/main.f8294b0c.js"
+  ]
+}
