@@ -33,7 +33,9 @@ html {
   border-radius: 50%;
 } */
 
-
+::-webkit-scrollbar {
+    display: none;
+  }
 
 @keyframes rotate-ring {
   0% {
@@ -43,6 +45,14 @@ html {
     transform: rotate(360deg);
   }
 }
+ .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .custom-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 
 .ring-border,
 .ring-border-secondary,

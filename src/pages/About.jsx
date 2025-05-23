@@ -27,13 +27,13 @@ const About = () => {
 
 
       <div className="order-1 md:order-2 w-full md:w-3/4 min:h-[50vh] md:h-[100vh]  ">
-        <div className=" w-[100%] md:w-[80%] h-1/2  flex items-center flex-col gap-1 justify-center md:justify-end ">
+        <div className=" w-[100%] lg:w-[80%] h-1/2  flex items-center flex-col gap-1 justify-center md:justify-end mb-3">
           <AboutDescription
             desription={"Hi, I'm Rohith Krishna, a software developer at Logiprompt Techno Solutions. I recently completed a MERN stack course, which deepened my skills in building modern, full-stack web applications. Currently, I'm working on a project involving React Native and Node.js, expanding my expertise in mobile and backend development.I'm passionate about leveraging technology to create practical, user-focused solutions. With hands-on experience in scalable app development, I’m always eager to take on new challenges, collaborate with fellow developers, and contribute to impactful projects."}
           />
         </div>
-        <div className="w-[100%] md:w-[82%] h-1/2  flex items-center md:items-start justify-center  px-2 mt-1 ">
-          <div id="three" className=" w-full h-auto flex flex-wrap items-start justify-center md:justify-start gap-1 ">
+        <div className="w-[100%] lg:w-[82%] h-1/2 flex items-center md:items-start justify-center  px-2 mt-1 ">
+          <div id="three" className=" w-full h-auto  flex flex-wrap items-start justify-center md:justify-start gap-1 ">
             <StatsSection />
           </div>
         </div>

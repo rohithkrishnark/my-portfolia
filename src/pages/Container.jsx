@@ -4,10 +4,13 @@ import About from './About'
 import Home from './Home'
 import Skill from './Skill';
 import Contact from './Contact';
+import Projects from './Projects';
+import UpComponent from '../Components/UpComponent';
 
 const Container = () => {
   return (
     <Box sx={{ width: "100%", minHeight: '100vh' }}>
+      <UpComponent/>
       <section id='home'>
         <Home />
       </section>
@@ -17,7 +20,10 @@ const Container = () => {
       <section id='skills'>
         <Skill />
       </section>
-      <section>
+      <section id='projects'>
+        <Projects />
+      </section>
+      <section id="contact">
         <Contact/>
       </section>
     </Box>
