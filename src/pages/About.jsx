@@ -29,7 +29,8 @@ const About = () => {
       <div className="order-1 md:order-2 w-full md:w-3/4 min:h-[50vh] md:h-[100vh]  ">
         <div className=" w-[100%] lg:w-[80%] h-1/2  flex items-center flex-col gap-1 justify-center md:justify-end mb-3">
           <AboutDescription
-            desription={"Hi, I'm Rohith Krishna, a software developer at Logiprompt Techno Solutions. I recently completed a MERN stack course, which deepened my skills in building modern, full-stack web applications. Currently, I'm working on a project involving React Native and Node.js, expanding my expertise in mobile and backend development.I'm passionate about leveraging technology to create practical, user-focused solutions. With hands-on experience in scalable app development, I’m always eager to take on new challenges, collaborate with fellow developers, and contribute to impactful projects."}
+            desription=
+            {"Hi, I'm Rohith Krishna, a Software Engineer at Travancore Medicity. I specialize in building full-stack applications using React, Node.js, MySQL, and React Native. After completing a MERN stack course, I’ve gained hands-on experience developing both web and mobile apps that are scalable and user-friendly.I'm passionate about solving real-world problems through clean, efficient code and continuously learning new technologies. I enjoy collaborating on meaningful projects and taking on new challenges that push me to grow."}
           />
         </div>
         <div className="w-[100%] lg:w-[82%] h-1/2 flex items-center md:items-start justify-center  px-2 mt-1 ">

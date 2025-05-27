@@ -11,7 +11,7 @@ const Contact = () => {
             sx={{ width: "100%", height: "100vh" }}>
             <div className='w-[80%] h-[80%] flex-col md:flex-row flex'>
                 <div className=" w-full md:w-[40%] h-[50%] md:h-[100%] flex flex-col justify-center ">
-                    <h2 className="font-robotoMono text-4xl md:text-5xl text-white font-bold mb-2 ">CO<span className="text-green-400">N</span>ACT ME</h2>
+                    <h2 className="font-robotoMono text-4xl md:text-5xl text-white font-bold mb-2 ">CON<span className="text-green-400">T</span>ACT ME</h2>
                     <p className="font-robotoMono text-xl font-bold text-white text-justify mb-1">Let's work together</p>
                     <p className="font-robotoMono md:text-sm text-[11px] text-white text-justify">Have an idea or project in mind? Let’s team up and build something great. I’m just a message away!</p>
                     <div className='flex flex-col gap-2 my-2'>
