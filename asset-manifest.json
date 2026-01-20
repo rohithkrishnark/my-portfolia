@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolia/static/css/main.93d66683.css",
-    "main.js": "/my-portfolia/static/js/main.36638e65.js",
+    "main.js": "/my-portfolia/static/js/main.b6f22f80.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolia/static/js/453.acca0757.chunk.js",
-    "static/media/final.png": "/my-portfolia/static/media/final.c6db74ff6eb746fe9ca2.png",
+    "static/media/about1.jpeg": "/my-portfolia/static/media/about1.7ae5cbecf3e8c8843668.jpeg",
     "static/media/four.jpeg": "/my-portfolia/static/media/four.f215bd3e864f68f36d59.jpeg",
-    "static/media/three.jpeg": "/my-portfolia/static/media/three.8d86651f7f9be91fb0d7.jpeg",
     "static/media/two.jpeg": "/my-portfolia/static/media/two.a4bbd665efc97020151c.jpeg",
+    "static/media/new2.jpeg": "/my-portfolia/static/media/new2.9e195a562c061afb5c88.jpeg",
     "static/media/physics.png": "/my-portfolia/static/media/physics.86c8d9eba03e29814d2a.png",
     "static/media/mysql_919836.png": "/my-portfolia/static/media/mysql_919836.bdbd1eb709e4c13258d2.png",
     "static/media/physics_753244.png": "/my-portfolia/static/media/physics_753244.07d9e407d4e491c548d5.png",
@@ -23,11 +23,11 @@
     "static/media/js_5968292.png": "/my-portfolia/static/media/js_5968292.3dfb665e058d08c99f28.png",
     "index.html": "/my-portfolia/index.html",
     "main.93d66683.css.map": "/my-portfolia/static/css/main.93d66683.css.map",
-    "main.36638e65.js.map": "/my-portfolia/static/js/main.36638e65.js.map",
+    "main.b6f22f80.js.map": "/my-portfolia/static/js/main.b6f22f80.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolia/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93d66683.css",
-    "static/js/main.36638e65.js"
+    "static/js/main.b6f22f80.js"
   ]
 }
