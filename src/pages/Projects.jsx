@@ -4,8 +4,8 @@ import ProjectsCard from '../Components/ProjectsCard'
 
 const Projects = () => {
     return (
-        <Box className="flex md:flex-row flex-col items-center justify-center bg-black"
-            sx={{ width: "100%", height: "100vh" }}>
+        <Box className="flex md:flex-row flex-col items-center justify-center bg-black pb-1"
+            sx={{ width: "100%", minHeight: "100vh" }}>
             <div className='w-[80%] h-[95%]  '>
                 <div className=" w-[100%]  h-[20%] ">
                     <h2 className="font-robotoMono text-2xl md:text-5xl text-white font-bold mb-2 text-center md:text-start ">PRO<span className="text-green-400">J</span>ECT </h2>
@@ -33,7 +33,16 @@ const Projects = () => {
                         name={"MedValet Parking Management System"}
                         type={"Private"}
                         stack={" React, Node.js, Mysql, Tailwind"}
-                        des={"A full-stack web application for seamless parking space booking and management. Users can search, reserve, and pay for spots, while space owners can list and manage their availability. The platform ensures efficient coordination with a user-friendly interface."}
+                        des={"Incident Management System is a software application that allows organizations to record, track, and resolve incidents efficiently. It enables users to log and categorize incidents, assign them to responsible teams, and monitor their status, improving response time, accountability, and overall operational efficiency"}
+                        socailmedio={"LinkedIn"}
+                        link={"https://www.linkedin.com/in/rohithkrishna13"}
+                        reason={" This project is not open-source due to company policy."}
+                    />
+                    <ProjectsCard
+                        name={"Diet Management System"}
+                        type={"Private"}
+                        stack={" React, Node.js, Mysql, Tailwind"}
+                        des={"Diet Management System is a software application designed to help users plan, track, and manage their daily diet and nutrition. It allows users to create meal plans, monitor calorie intake, track nutritional values, and maintain healthy eating habits, supporting better health and lifestyle management."}
                         socailmedio={"LinkedIn"}
                         link={"https://www.linkedin.com/in/rohithkrishna13"}
                         reason={" This project is not open-source due to company policy."}
@@ -44,6 +53,16 @@ const Projects = () => {
                         des={"A Node.js and Handlebars-based hospital management website that streamlines workflows like bed tracking, patient feedback, and interdepartmental task coordination through a responsive and user-friendly interface"}
                         link={"https://github.com/rohithkrishnark"}
                         socailmedio={"Github"}
+                    />
+
+                    <ProjectsCard
+                        name={"Incident Management System"}
+                        type={"Private"}
+                        stack={" React js, Node.js, Mysql, Tailwind"}
+                        des={"A full-stack web application for seamless parking space booking and management. Users can search, reserve, and pay for spots, while space owners can list and manage their availability. The platform ensures efficient coordination with a user-friendly interface."}
+                        socailmedio={"LinkedIn"}
+                        link={"https://www.linkedin.com/in/rohithkrishna13"}
+                        reason={" This project is not open-source due to company policy."}
                     />
 
                 </div>

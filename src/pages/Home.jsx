@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
-import mypic from '../assets/final.png'
+import mypic from '../assets/new2.jpeg'
 import OwnerDetails from '../Components/OwnerDetails'
 
 
