@@ -2,7 +2,7 @@ import { Box } from "@mui/joy";
 import { memo } from "react";
 import '../../src/App.css'
 
-import aboutpic from '../assets/three.jpeg';
+import aboutpic from '../assets/about1.jpeg';
 import aboutpic2 from '../assets/two.jpeg';
 import aboutpic3 from '../assets/four.jpeg';
 import AboutDescription from "../Components/AboutDescription";
@@ -21,7 +21,7 @@ const About = () => {
           style={{ backgroundColor: '#212529' }}
           className=" block w-[60%] md:w-[65%] h-[90%] md:h-[75%] rounded-md  py-3 flex items-center justify-center ">
           {/* <img src={aboutpic3} alt="Image 1" className="" /> */}
-          <img src={aboutpic2} alt="Image 2 " className="w-[80%] h-[100%]" />
+          <img src={aboutpic} style={{objectFit:'cover'}} alt="Image 2 " className="w-[80%] h-[100%]" />
         </div>
       </div>
 
